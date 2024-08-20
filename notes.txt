@@ -1,0 +1,8 @@
+python -m venv venv
+source path/bin/activate
+pip3 install django
+django-admin startproject projectname
+python manage.py runserver
+python manage.py startapp appname
+(app and project are different. app does one task, project is collection of apps)
+
